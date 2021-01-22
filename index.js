@@ -282,6 +282,12 @@ var vCard = (function () {
          */
         workAddress: getMailingAddress(),
 
+         /**
+         * Other mailing address
+         * @type {object}
+         */
+        otherAddress: getMailingAddress(),
+
         /**
          * Work phone
          * @type {String}
